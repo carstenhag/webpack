@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="stylus">
-  @import '../stylus/colors.styl'
+  @import './stylus/colors.styl'
 
   #app
     font-family: 'Avenir', Helvetica, Arial, sans-serif
