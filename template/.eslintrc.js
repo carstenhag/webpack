@@ -69,6 +69,8 @@ module.exports = {
     }],
     {{/if_eq}}
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    // erlaubt kommentare, ohne dass diese ein leerzeichen benötigen
+    'spaced-comment': 0
   }
 }
